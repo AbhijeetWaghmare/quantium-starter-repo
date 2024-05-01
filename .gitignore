@@ -1,5 +1,5 @@
 #local files
-data_preprocessing.ipynb
+*.ipynb
 
 
 # Jetbrains
