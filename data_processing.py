@@ -16,6 +16,7 @@ def data_processing(file0,file1,file2):
     
     del data['price']
     del data['quantity']
+    del data['product']
     
     data = data.reset_index(drop=True)
     data.to_csv('output_file.csv', index=False)
